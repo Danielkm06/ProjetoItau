@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 120, 0);
+    color: rgb(2, 1, 110);
+}
+
+.container{
+    background-color: rgb(205, 215, 234);
+    padding: 10px;
+    height:100%;
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+h3{
+
+    color: rgb(2, 1, 110);
+}
+.margem{
+    padding: 10%;
+}
+#cabecalho, .card-body{
+    text-align: center;
+    font-size: 25px;
+}
+#agenteSuperior{
+    font-size: 30px;
+}
+#secoes{
+    max-width: 60%;
+    margin-left: 20%;
+}
+.form-group{
+    width: 50%;
+    margin-left: 25%;
+}
+#parceirosVolume {
+    background-color: white;
+}
+#parceiros{
+    font-size: 22px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}

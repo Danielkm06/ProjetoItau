@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parceiros - DashCard System</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <script type="text/javascript" src="JS/parceiros.js"></script>
+
+</head>
+<body  onload="exibirVolumes()">
+    
+
+    <div class="container">
+
+        
+        <table border="0" class="table" >
+            <tr>
+                <td id="nomeAgente">
+                    
+                </td>
+                <td  style='text-align:right'>
+                     <!-- <input type='button' class="btn btn-light" value='Voltar' onclick='history.go(-1)' />  -->
+                    
+                     <input type='button' class="btn btn-primary" value='Voltar' onclick='history.go(-1)' />
+                    <input class="btn btn-primary" onclick=window.location.href='index.html' type="button" value="Logoff">
+                    
+                </td>
+            </tr>
+            
+
+            </table>
+
+
+
+            <div class="card bg-light mb-3" id="secoes">
+                <div class="card-header" id="cabecalho"><h5>Parceiro</h5></div>
+                <div class="card-body" id="agente">
+                  <!-- <h5 class="card-title">Light card title</h5> --> 
+                  
+                </div>
+              </div>
+<br>
+
+<div class="card bg-light mb-3" id="secoes">
+    <div class="card-header" id="cabecalho"><h5>Sucesso</h5></div>
+    <div class="card-body" id="parceiroSucesso">
+        
+    </div>
+  </div>
+<br>
+
+<div class="card bg-light mb-3" id="secoes">
+    <div class="card-header" id="cabecalho"><h5>Falhas</h5></div>
+    <div class="card-body" id="parceiroFalha">
+    
+    </div>
+  </div>
+<br>
+
+
+<div class="card bg-light mb-3" id="secoes">
+    <div class="card-header" id="cabecalho"><h5>Fraudes</h5></div>
+    <div class="card-body" id="parceiroFraude">
+        
+    </div>
+  </div>
+<br>
+
+
+    </div>
+
+</body>
+</html>

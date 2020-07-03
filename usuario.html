@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário logado</title>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+   <script type="text/javascript" src="JS/usuario.js"></script>
+</head>
+<body onload="exibirUsuario()"> 
+    
+
+    <div class="container">
+
+<!--
+        <div class="row">
+            <div style='text-align:right' class="col-12"> -- Outro Comentário>
+                <div class="col-12">
+                <h3 class="col-12">DashCard System</h3>
+
+              </div>
+
+        </div>
+    -->
+        
+        
+<table border="0" class="table" >
+<tr>
+    <td>
+        <h3 class="col-12">DashCard System</h3>
+    </td>
+    <td>
+        <input class="btn btn-primary" onclick=window.location.href='index.html' type="button" value="Logoff">
+    </td>
+</tr>
+
+
+</table>
+
+
+<!-- <table align="center" width="100%" border="1" cellpadding="3" cellspacing="15"> -->
+    <table border="0" class="table">
+    <tr>
+        <td id="fotoUsuario">
+            <!--<img   src="images/gates.jpg" width="100" height="100"></img> -->
+               <!-- <div id="fotoUsuario" class="col-12"></div> -->
+            
+        </td>
+        <td>
+            <!-- <div id="perfil" class="col-12"></div> -->
+            <h2 id="perfil"></h2>
+        </td>
+        <td>
+          <!--   <input class="btn btn-primary" onclick=window.location.href='index.html' type="button" value="Logoff"> -->
+            
+        </td>
+    </tr>
+
+</table>
+
+
+
+    <!--<div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">Parceiro</label>
+        </div>
+       <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Escolha...</option>
+          <option value="1">Parceiro 1</option>
+          <option value="2">Parceiro 2</option>
+          <option value="3">Parceiro 3</option>
+          <option value="4">Parceiro 4</option>
+        </select>
+      </div> -->
+
+      <div class="btn-group" id="parceiros">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+          Escolha um parceiros
+        </button>
+        <div class="dropdown-menu dropdown-menu-lg-right" id="dropParceiros">
+            <!--<a class="dropdown-item" href="#">Regular link</a>
+            <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Disabled link</a>
+            <a class="dropdown-item" href="#">Another link</a>-->
+        </div>
+      </div>
+
+
+
+    <br>
+    <br>
+   
+<div id="parceiros"><b>Top 10 Parceiros</b></div><br>
+
+<table class="table table-hover" id="parceirosVolume"></table>
+
+<!--<table border="0" class="table" id="parceirosVolume">
+    <tr>
+        <th>
+           Parceiro
+        </th>
+        <th>
+           Volume Transacional
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Parceiro 1       
+        </td>
+        <td>
+            1.123.456
+        </td>
+    </tr>
+    <tr>
+        <td >
+            Parceiro 2
+        </td>
+        <td style='text-align:right' >
+            789.012
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Parceiro 3
+        </td>
+        <td style="text-align: initial;">
+            345
+        </td>
+    </tr>
+
+</table>-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
